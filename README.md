@@ -14,11 +14,13 @@ A Java GUI application for retrieving real-time weather information and short-te
 
 Run these commands from your terminal inside the project directory:
 
-```bash
-# 1. Compile Java source files into bin/ directory
+
+## 1. Compile Java source files into bin/ directory
+bash
 javac -d bin src/*.java
 
-# 2. Launch Application
+## 2. Launch Application
+
 java -cp bin src.WeatherAppGUI
 
 
@@ -27,44 +29,36 @@ java -cp bin src.WeatherAppGUI
 
 Here is the exact step-by-step terminal execution guide on your computer:
 
-### Step title="1. Open Terminal & Create Project Folder"
+## Step 1. Open Terminal & Create Project Folder
     Navigate to your assignment workspace and create the project structure:
-
-    ```bash
-
-    cd ~/assignments
+bash
+       cd ~/assignments
     mkdir -p WeatherApp/src
     cd WeatherApp
 
-    ```
 
-  ### Step title="2. Create Source Files"
+
+  ### Step 2. Create Source Files
     Create the four source files inside `src/` using your preferred terminal text editor (`nano`, `vim`, or VS Code):
-    ```bash
+    bash
     nano src/WeatherData.java
     nano src/SearchHistoryManager.java
     nano src/WeatherService.java
     nano src/WeatherAppGUI.java
     nano README.md
-    ```
+    
     *(Paste the corresponding code blocks provided above into each file and save).*
-  </Step>
-
-  <Step title="3. Compile the Java Code">
+ 
+  Step 3. Compile the Java Code
     Compile the Java files into a clean output directory named `bin/`:
-    ```bash
+    bash
     javac -d bin src/*.java
-    ```
-  </Step>
+    
+ 
 
-  <Step title="4. Run the Weather Application">
+  ##Step 4. Run the Weather Application
     Execute the application main class:
-    ```bash
+    bash
     java -cp bin src.WeatherAppGUI
-    ```
-  </Step>
-</Sequence>
 
----
-
-<FollowUp label="Want me to generate an automated compile/run Bash script or draft the submission submission document?" query="Draft an automated compile.sh script and a submission text for this weather app assignment."/>
+  
